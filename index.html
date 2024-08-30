@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Magazin e-motion</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Magazin e-motion, produse medicale">
+    <meta name="keywords" content="magazin, produse medicale, e-motion">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="pre-header">
+        <div class="container">
+            <div class="pre-header-email">
+                <i class="fa fa-envelope"></i>
+                <a href="mailto:comenzi@e-motion.ro" class="email-adress">
+                    comenzi@e-motion.ro
+                </a>
+            </div>
+            <div class="pre-header-phone">
+                <i class="fa fa-phone"></i>
+                <a class="consiliera-text">Consiliere Telefonică</a>
+                <a href="tel:0746734117" class="phone-number"><b>0746 734 117</b>,
+                </a> L-V 10:00-17:00
+            </div>
+        </div>
+    </div>
+    <div class="header">
+        <div class="header-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="https://cdn.contentspeed.ro//tzmo.websales.ro/cs-content/cs-skins/cs_lider/custom/logo-image_1690885538.png"
+                        height="90">
+                </a>
+            </div>
+            <div class="nav">
+                <ul class="other-pages">
+                    <li><a style="color: black;" href="index.html">Toate produsele</a></li>
+                    <li><a style="color: black;" href="despre-noi.html">Oferte</a></li><br>
+                    <li><a style="color: black;" href="produse.html">Despre noi</a></li>
+                    <li><a style="color: black;" href="contact.html">Contact</a></li><br>
+                    <li><a style="color: black;" href="persoane-juridice.html">Persoane juridice</a></li>
+                    <li><a style="color: black;" href="magazine.html">Magazine</a></li>
+                </ul>
+                <ul class="buttons">
+                    <li><a style="color: black;">
+                            <i class="fa fa-search"></i></a></li>
+                    <li><a style="color: black;">
+                            <i class="fa fa-heart"></i></a></li>
+                    <li><a style="color: black;">
+                            <i class="fa fa-shopping-bag"></i></a></li>
+                    <li><a style="color: black;">
+                            <i class="fa fa-user"></i></a></li>
+                </ul>
+            </div>
+            <div class="burger-menu">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+    </div>
+    <div class="slider-container">
+        <div class="slider-image">
+            <img loading="eager" src="photos/photo1.png" style="width: 100%;">
+        </div>
+        <div class="slider-image">
+            <img loading="eager" src="photos/photo2.png" style="width: 100%;">
+        </div>
+        <div class="slider-image">
+            <img loading="eager" src="photos/photo3.png" style="width: 100%;">
+        </div>
+        <div class="slider-image">
+            <img loading="eager" src="photos/photo4.png" style="width: 100%;">
+        </div>
+        <div class="slider-image">
+            <img loading="eager" src="photos/photo5.png" style="width: 100%;">
+        </div>
+        <script>
+            showSlides(slideIndex);
+        </script>
+        <a class="prev fa fa-long-arrow-left" onclick="plusSlides(-1)"></a>
+        <a class="next fa fa-long-arrow-right" onclick="plusSlides(1)"></a>
+
+        <ul class="slider-dots">
+            <li class="dot active" onclick="currentSlide(1)"></li>
+            <li class="dot" onclick="currentSlide(2)"></li>
+            <li class="dot" onclick="currentSlide(3)"></li>
+            <li class="dot" onclick="currentSlide(4)"></li>
+            <li class="dot" onclick="currentSlide(5)"></li>
+        </ul>
+    </div>
+    <br>
+    <div class="features">
+        <div class="feature-item item1">
+            <img src="photos/icon1.png" alt="Feature 1">
+            <h3>Livreare la easybox</h3>
+        </div>
+        <div class="feature-item item-right">
+            <img src="photos/icon2.png" alt="Feature 2">
+            <h3>Click and Collect</h3>
+        </div>
+        <div class="feature-item">
+            <img src="photos/icon3.png" alt="Feature 3">
+            <h3>Consiliere de Specialitate</h3>
+        </div>
+        <div class="feature-item item-right">
+            <img src="photos/icon4.png" alt="Feature 4">
+            <h3>Aplicatia mobila SENI</h3>
+        </div>
+    </div>
+    <br>
+    <div class="benefits">
+        <div class="types">
+            <div class="product-types type1">
+                <img src="photos/product-type1.png" alt="Type 1">
+                <h3>Absorbante<br>Urologice</h3>
+            </div>
+            <div class="product-types">
+                <img src="photos/product-type2.png" alt="Type 2">
+                <h3>Produse Cosmetice<br>de Specialitate</h3>
+            </div>
+            <div class="product-types">
+                <img src="photos/product-type3.png" alt="Type 3">
+                <h3>Accesorii<br>Medicale</h3>
+            </div>
+            <div class="product-types">
+                <img src="photos/product-type4.png" alt="Type 4">
+                <h3>Ortoze si<br>Suporturi Ortopedice</h3>
+            </div>
+            <div class="product-types">
+                <img src="photos/product-type5.png" alt="Type 5">
+                <h3>Scaune cu<br>Rotile</h3>
+            </div>
+        </div>
+    </div>
+    <div class="benefits-slider">
+        <div class="benefits-dots">
+            <span class="benefits-dot active"></span>
+            <span class="benefits-dot"></span>
+            <span class="benefits-dot"></span>
+            <span class="benefits-dot"></span>
+            <span class="benefits-dot"></span>
+        </div>
+    </div>
+    <br>
+    <div class="products">
+        <h2>PRODUSE LA OFERTA</h2>
+        <p>Profita acum de cele mai bune preturi!</p>
+        <div class="product-slider">
+            <button class="slider-btn prev1 fa fa-long-arrow-left" onclick="plusSlides1(-1)"></button>
+            <div class="product-slide">
+                <img src="photos/product1.png" alt="Product 1">
+                <h3>Seni Soft Basic</h3>
+                <span class="product-description">Alege igienic 60x60 cm, 30 buc</span>
+                <span class="old-price">55<sup>90</sup> Lei</span><span class="new-price">38<sup>08</sup> Lei</span>
+                <button>Adauga in cos</button>
+            </div>
+            <div class="product-slide">
+                <img src="photos/product2.png" alt="Product 2">
+                <h3>Seni Active Clasic</h3>
+                <span class="product-description">Alege igienic 60x60 cm, 30 buc</span>
+                <span class=" old-price">55<sup>90</sup> Lei</span><span class="new-price">38<sup>08</sup> Lei</span>
+                <button>Adauga in cos</button>
+            </div>
+            <div class="product-slide">
+                <img src="photos/product2.png" alt="Product 3">
+                <h3>Seni Soft Basic</h3>
+                <span class="product-description">Alege igienic 60x60 cm, 30 buc</span>
+                <span class="old-price">55<sup>90</sup> Lei</span><span class="new-price">38<sup>08</sup> Lei</span>
+                <button>Adauga in cos</button>
+            </div>
+            <div class="product-slide">
+                <img src="photos/product1.png" alt="Product 4">
+                <h3>Seni Soft Basic</h3>
+                <span class="product-description">Alege igienic 60x60 cm, 30 buc</span>
+                <span class="old-price">55<sup>90</sup> Lei</span><span class="new-price">38<sup>08</sup> Lei</span>
+                <button>Adauga in cos</button>
+            </div>
+            <div class="product-slide">
+                <img src="photos/product2.png" alt="Product 5">
+                <h3>Seni Soft Basic</h3>
+                <span class="product-description">Alege igienic 60x60 cm, 30 buc</span>
+                <span class="old-price">55<sup>90</sup> Lei</span><span class="new-price">38<sup>08</sup> Lei</span>
+                <button>Adauga in cos</button>
+            </div>
+            <button class="slider-btn next1 fa fa-long-arrow-right" onclick="plusSlides1(1)"></button>
+        </div>
+    </div>
+    <div class="products-slider">
+        <div class="products-dots">
+            <span class="products-dot active"></span>
+            <span class="products-dot"></span>
+            <span class="products-dot"></span>
+            <span class="products-dot"></span>
+            <span class="products-dot"></span>
+        </div>
+    </div>
+    <div class="products2">
+        <h2>CELE MAI POPULARE PRODUSE</h2>
+        <p>Clientii nostrii sunt foarte multumiti de aceste produse</p>
+        <br><br>
+        <div class="product-slider">
+            <button class="slider-btn prev2 fa fa-long-arrow-left" onclick="plusSlides2(-1)"></button>
+            <div class="product-slide2">
+                <img src="photos/product1.png" alt="Product 1">
+                <h3>Seni Soft Basic</h3>
+                <span class="product-description">Alege igienic 60x60 cm, 30 buc</span>
+                <span class="old-price">55<sup>90</sup> Lei</span><span class="new-price">38<sup>08</sup> Lei</span>
+                <button>Adauga in cos</button>
+            </div>
+            <div class="product-slide2">
+                <img src="photos/product2.png" alt="Product 2">
+                <h3>Seni Active Clasic</h3>
+                <span class="product-description">Alege igienic 60x60 cm, 30 buc</span>
+                <span class=" old-price">55<sup>90</sup> Lei</span><span class="new-price">38<sup>08</sup> Lei</span>
+                <button>Adauga in cos</button>
+            </div>
+            <div class="product-slide2">
+                <img src="photos/product2.png" alt="Product 3">
+                <h3>Seni Soft Basic</h3>
+                <span class="product-description">Alege igienic 60x60 cm, 30 buc</span>
+                <span class="old-price">55<sup>90</sup> Lei</span><span class="new-price">38<sup>08</sup> Lei</span>
+                <button>Adauga in cos</button>
+            </div>
+            <div class="product-slide2">
+                <img src="photos/product1.png" alt="Product 4">
+                <h3>Seni Soft Basic</h3>
+                <span class="product-description">Alege igienic 60x60 cm, 30 buc</span>
+                <span class="old-price">55<sup>90</sup> Lei</span><span class="new-price">38<sup>08</sup> Lei</span>
+                <button>Adauga in cos</button>
+            </div>
+            <div class="product-slide2">
+                <img src="photos/product2.png" alt="Product 5">
+                <h3>Seni Soft Basic</h3>
+                <span class="product-description">Alege igienic 60x60 cm, 30 buc</span>
+                <span class="old-price">55<sup>90</sup> Lei</span><span class="new-price">38<sup>08</sup> Lei</span>
+                <button>Adauga in cos</button>
+            </div>
+            <button class="slider-btn next2 fa fa-long-arrow-right" onclick="plusSlides2(1)"></button>
+        </div>
+        <div class="products-slider">
+            <div class="products-dots">
+                <span class="products-dot active"></span>
+                <span class="products-dot"></span>
+                <span class="products-dot"></span>
+                <span class="products-dot"></span>
+                <span class="products-dot"></span>
+            </div>
+        </div>
+        <br><br>
+    </div>
+
+    <div class="image-grid">
+        <div class="grid-item grid-item1">
+            <img src="photos/photo3.png" alt="Image 1">
+            <div class="overlay">
+                <p>Lorem ipsum</p>
+                <button>Comanda acum</button>
+            </div>
+        </div>
+        <div class="grid-item grid-item2">
+            <img src="photos/product-type3-2.png" alt="Image 2">
+            <div class="overlay">
+                <p>Lorem ipsum</p>
+                <button>Comanda acum</button>
+            </div>
+        </div>
+        <div class="grid-item grid-item3">
+            <img src="photos/photo5.png" alt="Image 3">
+            <div class="overlay">
+                <p>Lorem ipsum</p>
+                <button>Comanda acum</button>
+            </div>
+        </div>
+        <div class="grid-item grid-item4">
+            <img src="photos/photo4.png" alt="Image 4">
+            <div class="overlay">
+                <p>Lorem ipsum</p>
+                <button>Comanda acum</button>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="products3">
+        <h2>NOUTATI</h2>
+        <p>Descopera cele mai noi produse</p>
+        <div class="product-slider">
+            <button class="slider-btn prev3 fa fa-long-arrow-left" onclick="plusSlides3(-1)"></button>
+            <div class="product-slide3">
+                <img src="photos/product1.png" alt="Product 1">
+                <h3>Seni Soft Basic</h3>
+                <span class="product-description">Alege igienic 60x60 cm, 30 buc</span>
+                <span class="old-price">55<sup>90</sup> Lei</span><span class="new-price">38<sup>08</sup>
+                    Lei</span>
+                <button>Adauga in cos</button>
+            </div>
+            <div class="product-slide3">
+                <img src="photos/product2.png" alt="Product 2">
+                <h3>Seni Active Clasic</h3>
+                <span class="product-description">Alege igienic 60x60 cm, 30 buc</span>
+                <span class=" old-price">55<sup>90</sup> Lei</span><span class="new-price">38<sup>08</sup>
+                    Lei</span>
+                <button>Adauga in cos</button>
+            </div>
+            <div class="product-slide3">
+                <img src="photos/product2.png" alt="Product 3">
+                <h3>Seni Soft Basic</h3>
+                <span class="product-description">Alege igienic 60x60 cm, 30 buc</span>
+                <span class="old-price">55<sup>90</sup> Lei</span><span class="new-price">38<sup>08</sup>
+                    Lei</span>
+                <button>Adauga in cos</button>
+            </div>
+            <div class="product-slide3">
+                <img src="photos/product1.png" alt="Product 4">
+                <h3>Seni Soft Basic</h3>
+                <span class="product-description">Alege igienic 60x60 cm, 30 buc</span>
+                <span class="old-price">55<sup>90</sup> Lei</span><span class="new-price">38<sup>08</sup>
+                    Lei</span>
+                <button>Adauga in cos</button>
+            </div>
+            <div class="product-slide3">
+                <img src="photos/product2.png" alt="Product 5">
+                <h3>Seni Soft Basic</h3>
+                <span class="product-description">Alege igienic 60x60 cm, 30 buc</span>
+                <span class="old-price">55<sup>90</sup> Lei</span><span class="new-price">38<sup>08</sup>
+                    Lei</span>
+                <button>Adauga in cos</button>
+            </div>
+            <button class="slider-btn next3 fa fa-long-arrow-right" onclick="plusSlides3(1)"></button>
+        </div>
+    </div>
+    <div class="products-slider">
+        <div class="products-dots">
+            <span class="products-dot active"></span>
+            <span class="products-dot"></span>
+            <span class="products-dot"></span>
+            <span class="products-dot"></span>
+            <span class="products-dot"></span>
+        </div>
+    </div>
+    <br>
+    <div class="medical-equipment">
+        <div class="medical-grid">
+            <div class="images-container image-large">
+                <img src="photos/product-type4-2.png" alt="Equipment 1">
+                <div class="overlay">
+                    <p>Lorem ipsum</p>
+                    <button>Comanda acum</button>
+                </div>
+            </div>
+            <div class="images-container image-small1">
+                <img src="photos/product-type3.png" alt="Equipment 2">
+                <div class="overlay">
+                    <p>Lorem ipsum</p>
+                    <button>Comanda acum</button>
+                </div>
+            </div>
+            <div class="images-container image-small2">
+                <img src="photos/product-type5.png" alt="Equipment 3">
+                <div class="overlay">
+                    <p>Lorem ipsum</p>
+                    <button>Comanda acum</button>
+                </div>
+            </div>
+        </div>
+        <div class="text-container">
+            <div class="medical-text">
+                <div class="medical-text-content">
+                    <h2>TEHNICA MEDICALA</h2>
+                    <p>e-Motion.ro iti pune la dispozitie o gama variata de produse pentru recuperare si ingrijire
+                        specializata.
+                        Pentru a va usura munca in lupta cu o afectiune sau cu o dizabilitate, va oferim produse de
+                        ingrijire
+                        specializata si solutii pentru profesionisti, dar si pentru membri familiei.</p>
+                    <button>Vezi produsele</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="medical-equipment-phone">
+        <div class="text-container-phone">
+            <div class="medical-text-phone">
+                <div class="medical-text-content-phone">
+                    <h2>TEHNICA MEDICALA</h2>
+                    <p>e-Motion.ro iti pune la dispozitie o gama variata de produse pentru recuperare si ingrijire
+                        specializata.
+                        Pentru a va usura munca in lupta cu o afectiune sau cu o dizabilitate, va oferim produse de
+                        ingrijire
+                        specializata si solutii pentru profesionisti, dar si pentru membri familiei.</p>
+                    <button>Vezi produsele</button>
+                </div>
+            </div>
+        </div>
+        <div class="medical-grid-phone">
+            <div class="images-container-phone image-large-phone">
+                <img src="photos/product-type4-2.png" alt="Equipment 1">
+            </div>
+            <div class="images-container-phone image-small1-phone">
+                <img src="photos/product-type3.png" alt="Equipment 2">
+            </div>
+            <div class="images-container-phone image-small2-phone">
+                <img src="photos/product-type5.png" alt="Equipment 3">
+            </div>
+        </div>
+        <div class="overlay-phone">
+            <p>Lorem ipsum</p>
+            <button>Comanda acum</button>
+        </div>
+        <div class="medical-slider">
+            <div class="medical-dots">
+                <span class="medical-dot active"></span>
+                <span class="medical-dot"></span>
+                <span class="medical-dot"></span>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="blog-section">
+        <div class="blog-info">
+            <h2>BLOGUL NOSTRU</h2>
+            <p>
+                Venim în sprijinul pacienților, membrilor familiei și a profesioniștilor cu soluții și
+                informații
+                utile
+                pentru îngrijirea în cazurile de incontinență, a persoanelor cu dizabilități și despre tratarea
+                plăgilor
+                cronice.
+            </p>
+            <button class="read-more-btn">Afla mai multe</button>
+        </div>
+        <div class="blog-posts">
+            <div class="blog-post">
+                <img src="photos/photo3.png" alt="Ulcerul Piciorului">
+                <div class="post-info">
+                    <span class="post-date">28 Apr 2024 | Dr. Liviu Papara</span>
+                    <h3>ULCERELE PICIORULUI</h3>
+                    <a href="#" class="read-article-link">Citeste Articolul</a>
+                </div>
+            </div>
+            <div class="blog-post">
+                <img src="photos/photo4.png" alt="Tratarea Escarelor">
+                <div class="post-info">
+                    <span class="post-date">3 Feb 2024 | Dr. Emanuela Frunza</span>
+                    <h3>TRATAREA ESCARELOR</h3>
+                    <a href="#" class="read-article-link">Citeste Articolul</a>
+                </div>
+            </div>
+            <div class="blog-post">
+                <img src="photos/photo5.png" alt="Arsuri si Cicatrici">
+                <div class="post-info">
+                    <span class="post-date">18 Apr 2024 | Dr. Liviu Papara</span>
+                    <h3>ARSURI SI CICATRICI</h3>
+                    <a href="#" class="read-article-link">Citeste Articolul</a>
+                </div>
+            </div>
+            <div class="blog-slider">
+                <div class="blog-dots">
+                    <span class="blog-dot active"></span>
+                    <span class="blog-dot"></span>
+                    <span class="blog-dot"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="blog-section-phone">
+        <div class="blog-info-phone">
+            <h2>BLOGUL NOSTRU</h2>
+            <p>
+                Venim în sprijinul pacienților, membrilor familiei și a profesioniștilor cu soluții și
+                informații
+                utile
+                pentru îngrijirea în cazurile de incontinență, a persoanelor cu dizabilități și despre tratarea
+                plăgilor
+                cronice.
+            </p>
+            <button class="read-more-btn">Afla mai multe</button>
+        </div>
+        <div class="blog-posts-phone">
+            <div class="blog-post-phone">
+                <img src="photos/photo3.png" alt="Ulcerul Piciorului">
+                <div class="post-info-phone">
+                    <span class="post-date">28 Apr 2024 | Dr. Liviu Papara</span>
+                    <h3>ULCERELE PICIORULUI</h3>
+                    <a href="#" class="read-article-link">Citeste Articolul</a>
+                </div>
+            </div>
+            <div class="blog-post-phone">
+                <img src="photos/photo4.png" alt="Tratarea Escarelor">
+                <div class="post-info-phone">
+                    <span class="post-date">3 Feb 2024 | Dr. Emanuela Frunza</span>
+                    <h3>TRATAREA ESCARELOR</h3>
+                    <a href="#" class="read-article-link">Citeste Articolul</a>
+                </div>
+            </div>
+            <div class="blog-post-phone">
+                <img src="photos/photo5.png" alt="Arsuri si Cicatrici">
+                <div class="post-info-phone">
+                    <span class="post-date">18 Apr 2024 | Dr. Liviu Papara</span>
+                    <h3>ARSURI SI CICATRICI</h3>
+                    <a href="#" class="read-article-link">Citeste Articolul</a>
+                </div>
+            </div>
+        </div>
+        <div class="blog-slider-phone">
+            <div class="blog-dots-phone">
+                <span class="blog-dot-phone active"></span>
+                <span class="blog-dot-phone"></span>
+                <span class="blog-dot-phone"></span>
+            </div>
+        </div>
+    </div>
+    <div class="newsletter-section">
+        <h2>ABONEAZĂ-TE LA NEWSLETTER</h2>
+        <div class="newsletter-text">
+            <p>Vei fi primul care afla de produsele noi, de cele mai bune oferte și de articolele de pe blog.
+            </p>
+        </div>
+        <div class="news-form">
+            <form action="#" class="newsletter-form">
+                <input type="email" placeholder="Adresa de e-mail" style="text-align: center;" required>
+                <button type="submit">Ma abonez</button>
+            </form>
+        </div>
+    </div>
+    <br>
+    <div class="partners-section">
+        <h2>NE BUCURAM SA ITI PUTEM OFERI MARCI DE CEA MAI BUNA CALITATE</h2>
+        <div class="partners-logos">
+            <img src="photos/matopat.png" alt="Matopat">
+            <img src="photos/eva.png" alt="Eva">
+            <img src="photos/bella.png" alt="Bella">
+            <img src="photos/bella-cotton.png" alt="Bella Cotton">
+            <img src="photos/seni.png" alt="Seni">
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section footer-section-phone">
+                <h4>Contact</h4>
+                <p>Șos. De Centură, nr. 3e</p>
+                <p><i class="fa fa-phone"></i>
+                    0746 734 117</p>
+                <p><i class="fa fa-envelope"></i> comenzi@e-motion.ro</p>
+                <div class="social-icons">
+                    <img src="photos/Facebook.png" alt="Facebook">
+                    <img src="photos/Instagram.png" alt="Instagram">
+                    <img src="photos/Youtube.png" alt="YouTube">
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Categorii</h4>
+                <p>Incontinență adulți</p>
+                <p>Igienă și îngrijire</p>
+                <p>Mama și bebe</p>
+                <p>Consumabile medicale</p>
+                <p>Produse farmaceutice</p>
+                <p>Tehnico-medicale</p>
+            </div>
+            <div class="footer-section">
+                <h4>Informații Utile</h4>
+                <p>Cum comand</p>
+                <p>Modalități de plată</p>
+                <p>Modalități de livrare</p>
+                <p>Garanții</p>
+                <p>Returnarea produselor</p>
+                <p>Blog</p>
+            </div>
+            <div class="footer-section">
+                <h4>Legal</h4>
+                <p>Termeni și condiții</p>
+                <p>Politica de utilizare a cookie-urilor</p>
+                <p>Politica de confidențialitate</p>
+                <p>Decontare dispozitive medicale</p>
+            </div>
+            <div class="footer-section footer-section-last">
+                <h4>Contact</h4>
+                <p>Șos. De Centură, nr. 3e</p>
+                <p><i class="fa fa-phone"></i>
+                    0746 734 117</p>
+                <p><i class="fa fa-envelope"></i> comenzi@e-motion.ro</p>
+                <div class="social-icons">
+                    <img src="photos/Facebook.png" alt="Facebook">
+                    <img src="photos/Instagram.png" alt="Instagram">
+                    <img src="photos/Youtube.png" alt="YouTube">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="footer-bottom">
+        <p>@ e-motion 2024 - Toate drepturile rezervate</p>
+        <div class="footer-legals">
+            <img src="photos/anpc.jpg" alt="ANPC">
+            <img src="photos/litigii.png" alt="Solutii Ligitilor">
+        </div>
+        <div class="footer-logos">
+            <img src="photos/visa.png" alt="Visa">
+            <img src="photos/Verified-by-visa-logo.webp" alt="VerifiedByVisa">
+            <img src="photos/paypal.png" alt="PayPal">
+            <img src="photos/payU.png" alt="PayU">
+            <img src="photos/mastercard.webp" alt="Maestro">
+        </div>
+    </div>
+</body>
+
+</html>
