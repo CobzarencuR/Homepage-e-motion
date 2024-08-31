@@ -1,4 +1,4 @@
-# Landing page e-Motion
+# Homepage e-Motion
 
 I developed a homepage for the e-Motion store somewhat similar to the one they have now
 
